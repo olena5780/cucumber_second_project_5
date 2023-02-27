@@ -51,5 +51,8 @@ public class SMMainPage {
     @FindBy(css = "input[id*= 'btnDelete']")
     public WebElement deleteSelectedButton;
 
+    @FindBy(css = "input[id*='btnDelete']")
+    public WebElement listOrderMessage;
+
 
 }

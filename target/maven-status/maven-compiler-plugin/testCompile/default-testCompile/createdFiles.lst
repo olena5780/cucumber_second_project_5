@@ -1,7 +1,10 @@
 utils/ConfigReader.class
 steps/SmartBearSteps.class
 runners/Runner.class
-utils/Hooks.class
+utils/DropdownHandler.class
+pages/SMMainPage.class
 utils/Waiter.class
+utils/TableHandler.class
 utils/Driver.class
+steps/Hooks.class
 pages/SMLoginPage.class

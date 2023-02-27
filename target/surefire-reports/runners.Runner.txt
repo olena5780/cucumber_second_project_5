@@ -1,7 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: runners.Runner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.381 s <<< FAILURE! - in runners.Runner
-Validate invalid login attempt(SmartBear Functionality)  Time elapsed: 0.01 s  <<< ERROR!
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.566 s <<< FAILURE! - in runners.Runner
+Validate invalid login attempt(SmartBear Functionality)  Time elapsed: 0.011 s  <<< ERROR!
 java.lang.NullPointerException
+
+Validate invalid login attempt(SmartBear Functionality)  Time elapsed: 0.011 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: config.properties (No such file or directory)
+Caused by: java.io.FileNotFoundException: config.properties (No such file or directory)
+
+Validate valid login attempt(SmartBear Functionality)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+
+Validate valid login attempt(SmartBear Functionality)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class utils.ConfigReader
+
+Validate “Web Orders” menu items(SmartBear Functionality)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+
+Validate “Web Orders” menu items(SmartBear Functionality)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class utils.ConfigReader
+
+Validate “Check All” and “Uncheck All” links(SmartBear Functionality)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+
+Validate “Check All” and “Uncheck All” links(SmartBear Functionality)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class utils.ConfigReader
+
+Validate adding new order(SmartBear Functionality)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NullPointerException
+
+Validate adding new order(SmartBear Functionality)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class utils.ConfigReader
 

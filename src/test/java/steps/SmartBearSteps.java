@@ -1,6 +1,7 @@
 package steps;
 
 import cucumber.api.Scenario;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -82,6 +83,9 @@ public class SmartBearSteps {
             case "Process":
                 smMainPage.processButton.click();
                 break;
+            case "Delete Selected":
+                smMainPage.deleteSelectedButton.click();
+                break;
             default:
                 throw new RuntimeException("This button doesn't exist!");
         }
@@ -153,7 +157,19 @@ public class SmartBearSteps {
         }
     }
 
+    @Then("validate all orders are deleted from the {string}")
+    public void validate_all_orders_are_deleted_from_the() {
+        tableRow = TableHandler.getTableRow(driver, 2);
+        for (int i = 0; i < tableRow.size()-1; i++) {
+            Assert.assertTrue(tableRow.get(i).isDisplayed());
+        }
+    }
 
+    @And("validate user sees {string} message")
+    public void validate_user_sees_List_of_orders_is_empty_In_order_to_add_new_order_use_this_link_message(String message) {
+            Assert.assertEquals(message, smMainPage.listOrderMessage.getText());
+
+    }
 
 
 
