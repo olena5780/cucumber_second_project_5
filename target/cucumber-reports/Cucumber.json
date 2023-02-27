@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat steps.SmartBearSteps.userNavigatesTo(SmartBearSteps.java:25)\n\tat ✽.user is on \"http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\"(src/test/resources/features/smartbear.feature:5)\n",
+              "duration": 1731542,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user is on \"http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\"",
+                  "offset": 11
+                }
+              ],
+              "location": "SmartBearSteps.userNavigatesTo(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Validate invalid login attempt",
+        "description": "",
+        "id": "smartbear-functionality;validate-invalid-login-attempt;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6333,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user enters username as \"abcd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd\"",
+                  "offset": 24
+                }
+              ],
+              "location": "SmartBearSteps.user_enters_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4166,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user enters password as \"abcd1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd1234\"",
+                  "offset": 24
+                }
+              ],
+              "location": "SmartBearSteps.user_enters_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3666,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "SmartBearSteps.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user should see \"Invalid Login or Password.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Login or Password.\"",
+                  "offset": 16
+                }
+              ],
+              "location": "SmartBearSteps.user_should_see_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SmartBear Functionality",
+    "description": "",
+    "id": "smartbear-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/smartbear.feature",
+    "tags": []
+  }
+]
