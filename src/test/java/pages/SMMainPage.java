@@ -33,7 +33,7 @@ public class SMMainPage {
     @FindBy(css = "input[id*='txtQuantity']")
     public WebElement quantity;
 
-    @FindBy(css = "//ol[2]//input")
+    @FindBy(xpath = "//ol[2]//input")
     public List<WebElement> addressInputs;
 
     @FindBy(css = "input[id*='cardList']")
@@ -51,7 +51,7 @@ public class SMMainPage {
     @FindBy(css = "input[id*= 'btnDelete']")
     public WebElement deleteSelectedButton;
 
-    @FindBy(css = "input[id*='btnDelete']")
+    @FindBy(css = "div[id*='orderMessage']")
     public WebElement listOrderMessage;
 
 

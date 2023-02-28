@@ -12,10 +12,9 @@ public class Driver {
 
     private static WebDriver driver;
 
-    private Driver() {
-    }
+    private Driver() {}
 
-    ;
+
 
     public static WebDriver getDriver() {
 

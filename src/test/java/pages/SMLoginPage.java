@@ -17,7 +17,7 @@ public class SMLoginPage {
     @FindBy(css = "input[class='txt']")
     public List<WebElement> loginInputs;
 
-    @FindBy(css = "input[id*='password']")
+    @FindBy(id = "ctl00_MainContent_login_button")
     public WebElement loginButton;
 
     @FindBy(css = "span[class='error']")

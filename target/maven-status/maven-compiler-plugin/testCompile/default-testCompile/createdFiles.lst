@@ -1,5 +1,4 @@
 utils/ConfigReader.class
-steps/SmartBearSteps.class
 runners/Runner.class
 utils/DropdownHandler.class
 pages/SMMainPage.class
