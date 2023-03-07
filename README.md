@@ -20,6 +20,5 @@ Scenario steps will be executed with their linked implementation in the "steps" 
 After execution is done reports will be generated and stored under the target folder.
 In my Hooks Class where I keep my @After annotation to quit my driver that run after each scenario.
 In the Runner class that I linked with my feature file and their step implementation, in order to run scenarios.
-I can also run my test suit in the Runner class with specify tag (and so as the scenario(s)) I want to execu
+I can also run my test suit in the Runner class with specify tag (and so as the scenario(s)) I want to execute.
 
-<img width="1311" alt="Screen Shot 2023-02-28 at 1 50 51 PM" src="https://user-images.githubusercontent.com/116601393/221963586-f1e64059-9e07-4493-80c7-102d97a72fec.png">
