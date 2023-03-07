@@ -15,7 +15,12 @@ formatter.step({
 });
 formatter.match({});
 formatter.result({
+<<<<<<< HEAD
   "status": "undefined"
+=======
+  "error_message": "java.lang.NullPointerException\n\tat steps.SmartBearSteps.userNavigatesTo(SmartBearSteps.java:25)\n\tat ✽.user is on \"http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\"(src/test/resources/features/smartbear.feature:5)\n",
+  "status": "failed"
+>>>>>>> parent of 3eb42e1 (first push)
 });
 formatter.scenario({
   "name": "Validate invalid login attempt",
@@ -59,6 +64,7 @@ formatter.match({});
 formatter.result({
   "status": "undefined"
 });
+<<<<<<< HEAD
 formatter.after({
   "status": "passed"
 });
@@ -534,4 +540,6 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+=======
+>>>>>>> parent of 3eb42e1 (first push)
 });

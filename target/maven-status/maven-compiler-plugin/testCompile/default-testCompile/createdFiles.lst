@@ -1,9 +1,6 @@
 utils/ConfigReader.class
 runners/Runner.class
-utils/DropdownHandler.class
-pages/SMMainPage.class
+utils/Hooks.class
 utils/Waiter.class
-utils/TableHandler.class
 utils/Driver.class
-steps/Hooks.class
 pages/SMLoginPage.class

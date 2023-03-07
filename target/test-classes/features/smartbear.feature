@@ -1,5 +1,6 @@
 Feature: SmartBear Functionality
 
+<<<<<<< HEAD
   Background:
     Given user is on "http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx"
 
@@ -71,3 +72,20 @@ Feature: SmartBear Functionality
     And user clicks on "Delete Selected" button
     Then validate all orders are deleted from the List of All Orders
     And validate user sees "List of orders is empty. In order to add new order use this link." message
+=======
+
+Background:
+  Given user is on "http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx"
+
+  Scenario Outline: Validate invalid login attempt
+When user enters username as "<username>"
+And user enters password as "<password>"
+And user clicks on Login button
+Then user should see "<message>"
+
+  Examples:
+
+ | username | password  | message                     |
+ | abcd     | abcd1234  | Invalid Login or Password.  |
+
+>>>>>>> parent of 3eb42e1 (first push)

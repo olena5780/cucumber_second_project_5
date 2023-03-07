@@ -51,8 +51,11 @@ public class SMMainPage {
     @FindBy(css = "input[id*= 'btnDelete']")
     public WebElement deleteSelectedButton;
 
+<<<<<<< HEAD
     @FindBy(css = "div[id*='orderMessage']")
     public WebElement listOrderMessage;
 
+=======
+>>>>>>> parent of 3eb42e1 (first push)
 
 }

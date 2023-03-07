@@ -11,7 +11,13 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "status": "undefined"
+=======
+              "error_message": "java.lang.NullPointerException\n\tat steps.SmartBearSteps.userNavigatesTo(SmartBearSteps.java:25)\n\tat ✽.user is on \"http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\"(src/test/resources/features/smartbear.feature:5)\n",
+              "duration": 1731542,
+              "status": "failed"
+>>>>>>> parent of 3eb42e1 (first push)
             },
             "line": 4,
             "name": "user is on \"http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\"",
@@ -24,6 +30,7 @@
         "line": 7,
         "name": "Validate invalid login attempt",
         "description": "",
+<<<<<<< HEAD
         "id": "smartbear-functionality;validate-invalid-login-attempt",
         "after": [
           {
@@ -36,12 +43,20 @@
             }
           }
         ],
+=======
+        "id": "smartbear-functionality;validate-invalid-login-attempt;;2",
+>>>>>>> parent of 3eb42e1 (first push)
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "status": "undefined"
+=======
+              "duration": 6333,
+              "status": "skipped"
+>>>>>>> parent of 3eb42e1 (first push)
             },
             "line": 8,
             "name": "user enters username as \"abcd\"",
@@ -50,7 +65,12 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "undefined"
+=======
+              "duration": 4166,
+              "status": "skipped"
+>>>>>>> parent of 3eb42e1 (first push)
             },
             "line": 9,
             "name": "user enters password as \"abcd1234\"",
@@ -59,7 +79,12 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "undefined"
+=======
+              "duration": 3666,
+              "status": "skipped"
+>>>>>>> parent of 3eb42e1 (first push)
             },
             "line": 10,
             "name": "user clicks on Login button",
@@ -68,7 +93,12 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "undefined"
+=======
+              "duration": 3000,
+              "status": "skipped"
+>>>>>>> parent of 3eb42e1 (first push)
             },
             "line": 11,
             "name": "user should see \"Invalid Login or Password.\"",
@@ -81,6 +111,7 @@
             "name": "@Smoke"
           }
         ]
+<<<<<<< HEAD
       },
       {
         "line": 3,
@@ -681,6 +712,8 @@
             "name": "@Regression"
           }
         ]
+=======
+>>>>>>> parent of 3eb42e1 (first push)
       }
     ],
     "name": "SmartBear Functionality",
